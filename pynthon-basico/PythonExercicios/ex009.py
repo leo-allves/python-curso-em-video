@@ -1,21 +1,17 @@
 # faça um programa que leia um número Inteiro qualquer e mostre na tela a sua tabuada.
 
 
-n1 = int(input('Digite um número: '))
-print('{:=^20}'.format('TABUADA'))
-print('{}X{} = {} \n{}X{} = {} \n{}X{} = {} \n{}X{} = {} \n{}X{} = {} \n{}X{} = {} \n{}X{} = {} \n{}X{} = {} \n{}X{} = {} \n{}X{} = {}'
-    .format(
-    (n1),(1),(n1*1), 
-    (n1),(2),(n1*2),
-    (n1),(3),(n1*3),
-    (n1),(4),(n1*4), 
-    (n1),(5),(n1*5),
-    (n1),(6),(n1*6), 
-    (n1),(7),(n1*7), 
-    (n1),(8),(n1*8), 
-    (n1),(9),(n1*9),
-    (n1),(10),(n1*10)
-    )
-)
-print('{:=^20}'.format(''))
+num = int(input('Digite um número para ver sua tabuada: '))
+print('{:=^15}'.format('TABUADA'))
+print('{} X {:2} = {}'.format(num, 1 ,(num*1)))
+print('{} X {:2} = {}'.format(num, 2 ,(num*2)))
+print('{} X {:2} = {}'.format(num, 3 ,(num*3)))
+print('{} X {:2} = {}'.format(num, 4 ,(num*4)))
+print('{} X {:2} = {}'.format(num, 5 ,(num*5)))
+print('{} X {:2} = {}'.format(num, 6 ,(num*6)))
+print('{} X {:2} = {}'.format(num, 7 ,(num*7)))
+print('{} X {:2} = {}'.format(num, 8 ,(num*8)))
+print('{} X {:2} = {}'.format(num, 9 ,(num*9)))
+print('{} X {:2} = {}'.format(num, 10 ,(num*10)))
+print('{:=^15}'.format(''))
 

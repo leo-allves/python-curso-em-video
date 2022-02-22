@@ -4,9 +4,9 @@
 
 litro = 2.0
 
-largura = float(input('Digite o valor da largura: '))
-altura = float(input('Digite o valor da altura: '))
+largura = float(input('Largura da parede: '))
+altura = float(input('Altura da parede: '))
 area = largura * altura #area m²
 tinta = area / litro
 
-print('Uma parede com {} X {} tem uma área de {}m², será necessario {} litros de tintas'.format(largura, altura, area, tinta))
+print('Uma parede tem a dimensão de {} X {} e sua área é de {:.1f}m². \nPara pintar essa parede, você precisa de {:.1f}l de tintas.'.format(largura, altura, area, tinta))

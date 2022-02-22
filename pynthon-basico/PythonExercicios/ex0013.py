@@ -3,6 +3,6 @@
 
 salario = float(input('Digite o valor do salário R$: '))
 aumento = float(input('Reajuste (%): '))
-novoSalario = (salario + (salario/100)*aumento)
+novoSalario = (salario + (salario * aumento/100))
 
-print('Funcionário ganhava R${} \ne depois de ganhar {}% de almento. \nSeu novo salário e de: R${:.2f}\n'.format(salario, aumento, novoSalario))
+print('Funcionário ganhava R${} \ne depois de ganhar {:.0f}% de aumento. \nSeu novo salário e de: R${:.2f}\n'.format(salario, aumento, novoSalario))

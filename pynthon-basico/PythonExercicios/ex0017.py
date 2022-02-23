@@ -2,7 +2,7 @@
 # Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente
 # de um triângulo retângulo, calcule e mostre o comprimento da hipotenusa.
 
-# quadr da impot = soma dos quadra dos catetos (a² = b² + c²)
+# quad da import = soma dos quadra dos catetos (a² = b² + c²)
 from math import hypot
 
 cateto_oposto = float(input('Digite o valor do cateto oposto: '))

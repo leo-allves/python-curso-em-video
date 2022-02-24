@@ -3,6 +3,13 @@
 
 # num = random.randint(0, 10)
 
-import random
-sorteio = ('Marcos', 'Roberto', 'Manuel', 'Felipe')
-print(random.sample(sorteio, k=1))
+from random import choice
+a1 = str(input('Primeiro aluno: '))
+a2 = str(input('Segundo aluno: '))
+a3 = str(input('Terceiro aluno: '))
+a4 = str(input('Quarto aluno: '))
+# lista = ('Marcos', 'Roberto', 'Manuel', 'Felipe')
+
+lista = [a1, a2, a3, a4]
+escolhido = choice(lista)
+print('O nome escolhido foi: {}'.format(escolhido))

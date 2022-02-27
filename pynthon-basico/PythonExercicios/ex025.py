@@ -3,5 +3,5 @@
 # returnar true ou false
 
 
-person = str(input('Digite o seu nome: '))
+person = str(input('Digite o seu nome: ')).strip().upper()
 print('SILVA' in person)

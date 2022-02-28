@@ -10,7 +10,7 @@
 
 # Calcular nota arithmetic
 
-# Operando é o valor seja string ou numerico que será atribuido a um operador aritimetico Ex:(5+2 == )
+# Operando é o valor seja string ou numeric que será atribuido a um operador aritimetico Ex:(5+2 == )
 # Seria dois operandos (5) e (2) chamamos isso de (operadores binários) para testar algo usuamos ==(igual)
 
 # (=) Receber
